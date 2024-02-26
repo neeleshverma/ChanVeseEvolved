@@ -39,4 +39,6 @@ The demo is written in cell structure, please execute cells one by one. All othe
 
 ### Running the Code
 
-Simply run demo_chenvese.m with the appropriate path for images
+Simply run demo_chenvese.m with the appropriate path for images  
+
+The report can be found here - [Report](https://github.com/neeleshverma/ChanVeseEvolved/blob/main/Chan_Vese_Report.pdf)
