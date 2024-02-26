@@ -1,0 +1,45 @@
+================================================================================
+
+  1. File contents
+
+================================================================================
+  Images: 
+      Baseline : Images to segment
+      Results : results of baseline images
+  Matlab M file:
+		checkstop.m
+		chenvese.m
+		demo_chenvese.m
+		Heaviside.m
+		kappa.m
+		maskcircle2.m
+		reinitialization.m
+		showphi.m
+
+================================================================================
+
+  2. M file functions
+
+================================================================================
+
+   a) checkstop.m      : check whether curve evolution is stable to stop 
+   b) chenvese.m 	: main function
+		   	  execute active contours without edges algorithm
+   c) demo_chenvese.m	: demos
+   d) Heaviside.m	: Heaviside function 
+   e) kappa.m	 	: calculate image curvature 
+   f) maskcircle2.m	: create built-in mask 
+   g) reinitialization.m: re-initialize phases for multiphase case 
+   h) showphi.m	 	: display intermediate results 
+
+Demo is written in cell structure, please execute cells one by one.
+All other functions above are called by the main function: CHENVESE.
+
+
+================================================================================
+
+  3. Running the Code
+
+================================================================================
+
+   Simply run demo_chenvese.m with appropriate path for images
